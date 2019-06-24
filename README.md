@@ -144,7 +144,7 @@ than `gifts.length` (`3` in the above example). Our iteration, `i++`, increments
 our counter by `1` at the end of each pass through the loop.
 
 In our loop body, notice that we reference `gifts[i]`. Since `i` starts out as
-`0`, during the first pass through the loop `gifts[i]` is `gifts[0]` is `'teddy bear'`. During the second pass through the loop, `gifts[i]` is `gifts[1]` is
+`0`, during the first pass through the loop `gifts[i]` is `gifts[0]` and `'teddy bear'`. During the second pass through the loop, `gifts[i]` is `gifts[1]` is
 `'drone'`. And during the final pass through the loop, `gifts[i]` is `gifts[2]`,
 which is `'doll'`. After the third pass through the loop, we increment `i` to
 `3`, which is no longer less than `gifts.length`. Our condition evaluates to
